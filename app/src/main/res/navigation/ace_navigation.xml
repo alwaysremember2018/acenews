@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ace_navigation"
+    app:startDestination="@id/homePageFragment">
+
+    <fragment
+        android:id="@+id/homePageFragment"
+        android:name="com.acenews.android.HomePageFragment"
+        android:label="首页"
+        tools:layout="@layout/fragment_home_page" />
+    <fragment
+        android:id="@+id/findFragment"
+        android:name="com.acenews.android.FindFragment"
+        android:label="发现"
+        tools:layout="@layout/fragment_find" />
+    <fragment
+        android:id="@+id/myFragment"
+        android:name="com.acenews.android.MyFragment"
+        android:label="我的"
+        tools:layout="@layout/fragment_my" />
+</navigation>
